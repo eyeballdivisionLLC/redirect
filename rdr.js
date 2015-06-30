@@ -1,11 +1,11 @@
 
-var oldURL = document.referrer;
-alert(oldURL);
+// var oldURL = document.referrer;
+// alert(oldURL);
 
 
 function getUrlParameter(sParam)
 {
-    var sPageURL = window.location.search.substring(1);
+    var sPageURL = document.referrer.search.substring(1);
     var sURLVariables = sPageURL.split('&');
     for (var i = 0; i < sURLVariables.length; i++)
     {
