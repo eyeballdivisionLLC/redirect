@@ -1,21 +1,6 @@
 
 var oldURL = document.referrer;
-alert(oldURL);
-
-
-function getUrlParameter(sParam)
-{
-    var sPageURL = document.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++)
-    {
-        var sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] == sParam)
-        {
-            return sParameterName[1];
-        }
-    }
-}
+// alert(oldURL);
 
 var subid = getUrlParameter('subid');
 var aff_id = getUrlParameter('aff_id');
@@ -27,6 +12,23 @@ var aff_sub5 = getUrlParameter('aff_sub5');
 var source = getUrlParameter('source');
 var file_id = getUrlParameter('file_id');
 var url_id = getUrlParameter('url_id');
+
+
+function getUrlParameter(sParam)
+{
+    var sPageURL = oldURL.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++)
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam)
+        {
+            return sParameterName[1];
+        }
+    }
+}
+
+
 
 
 // $(document).ready(function(){
