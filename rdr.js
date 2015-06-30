@@ -1,6 +1,5 @@
 
 var oldURL = document.referrer;
-alert(oldURL);
 
 
 function getUrlParameter(sParam)
