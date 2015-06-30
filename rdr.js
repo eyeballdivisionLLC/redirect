@@ -32,8 +32,11 @@ var url_id = getUrlParameter('url_id');
 $(document).ready(function(){
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
+$('.test').click(function(){
 
         window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&subid=' + subid + '&aff_id=' + aff_id + '&aff_sub=' + aff_sub + '&aff_sub2=' + aff_sub2 + '&aff_sub3=' + aff_sub3 + '&aff_sub4=' + aff_sub4 + '&aff_sub5=' + aff_sub5 + '&source=' + source + '&file_id=' + file_id + '&url_id=' + url_id);
+        
+});
 
     // }
 
