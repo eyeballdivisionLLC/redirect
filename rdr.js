@@ -36,7 +36,7 @@ function getUrlParameter(sParam)
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 $('.test').click(function(){
 
-        window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&subid=' + subid + '&aff_id=' + aff_id + '&aff_sub=' + aff_sub + '&aff_sub2=' + aff_sub2 + '&aff_sub3=' + aff_sub3 + '&aff_sub4=' + aff_sub4 + '&aff_sub5=' + aff_sub5 + '&source=' + source + '&file_id=' + file_id + '&url_id=' + url_id);
+        window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&subid=' + subid + '&aff_id=' + ebd_affid + '&aff_sub=' + ebd_affsource + '&aff_sub2=' + ebd_affsub + '&aff_sub3=' + ebd_affsub2 + '&aff_sub4=' + ebd_affsub3 + '&aff_sub5=' + ebd_affsub4 + '&source=' + ebd_affsub5 + '&file_id=' + ebd_urlid + '&oid=' + ebd_oid);
 
 });
 
