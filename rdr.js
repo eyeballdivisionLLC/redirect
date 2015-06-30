@@ -17,7 +17,7 @@ function getUrlParameter(sParam)
     }
 }
 
-
+var subid = getUrlParameter('subid');
 var aff_id = getUrlParameter('aff_id');
 var aff_sub = getUrlParameter('aff_sub');
 var aff_sub2 = getUrlParameter('aff_sub2');
@@ -33,7 +33,7 @@ $(document).ready(function(){
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 
-        window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&aff_id=' + aff_id + '&aff_sub=' + aff_sub + '&aff_sub2=' + aff_sub2 + '&aff_sub3=' + aff_sub3 + '&aff_sub4=' + aff_sub4 + '&aff_sub5=' + aff_sub5 + '&source=' + source + '&file_id=' + file_id + '&url_id=' + url_id);
+        window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&subid=' + subid + '&aff_id=' + aff_id + '&aff_sub=' + aff_sub + '&aff_sub2=' + aff_sub2 + '&aff_sub3=' + aff_sub3 + '&aff_sub4=' + aff_sub4 + '&aff_sub5=' + aff_sub5 + '&source=' + source + '&file_id=' + file_id + '&url_id=' + url_id);
 
     // }
 
