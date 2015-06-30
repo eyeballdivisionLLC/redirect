@@ -2,16 +2,16 @@
 var oldURL = document.referrer;
 // alert(oldURL);
 
-var subid = getUrlParameter('subid');
-var aff_id = getUrlParameter('aff_id');
-var aff_sub = getUrlParameter('aff_sub');
-var aff_sub2 = getUrlParameter('aff_sub2');
-var aff_sub3 = getUrlParameter('aff_sub3');
-var aff_sub4 = getUrlParameter('aff_sub4');
-var aff_sub5 = getUrlParameter('aff_sub5');
-var source = getUrlParameter('source');
-var file_id = getUrlParameter('file_id');
-var url_id = getUrlParameter('url_id');
+var subid = $('#tid').val();
+var ebd_affid = $('#ebd_affid').val();
+var ebd_affsource = $('#ebd_affsource').val();
+var ebd_affsub = $('#ebd_affsub').val();
+var ebd_affsub2 = $('#ebd_affsub2').val();
+var ebd_affsub3 = $('#ebd_affsub3').val();
+var ebd_affsub4 = $('#ebd_affsub4').val();
+var ebd_affsub5 = $('#ebd_affsub5').val();
+var ebd_urlid = $('#ebd_urlid').val();
+var ebd_oid = $('#ebd_oid').val();
 
 
 function getUrlParameter(sParam)
