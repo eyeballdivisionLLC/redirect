@@ -29,7 +29,7 @@ var file_id = getUrlParameter('file_id');
 var url_id = getUrlParameter('url_id');
 
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 $('.test').click(function(){
@@ -44,4 +44,4 @@ $('.test').click(function(){
     // else{
         // window.location.replace('http://youtube.com');
     // }
-});
+// });
