@@ -1,11 +1,11 @@
 
-
+var oldURL = document.referrer;
 
 
 
 function getUrlParameter(sParam)
 {
-    var sPageURL = window.location.search.substring(1);
+    var sPageURL = oldURL.substring(1);
     var sURLVariables = sPageURL.split('&');
     for (var i = 0; i < sURLVariables.length; i++)
     {
@@ -29,6 +29,6 @@ var file_id = getUrlParameter('file_id');
 var url_id = getUrlParameter('url_id');
 
 
-$(document).ready(function(){
+$(document).on('load', function(){
         window.location.replace("mesh.mylawfirmfinder.com/v3/c=pinkGreen/?" + 'aff_id=' + aff_id + '&aff_sub=' + aff_sub + '&aff_sub2=' + aff_sub2 + '&aff_sub3=' + aff_sub3 + '&aff_sub4=' + aff_sub4 + '&aff_sub5=' + aff_sub5 + '&source=' + source + '&file_id=' + file_id + '&url_id=' + url_id);
 });
