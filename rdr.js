@@ -5,7 +5,7 @@ var oldURL = document.referrer;
 
 function getUrlParameter(sParam)
 {
-    var sPageURL = oldURL.substring(1);
+    var sPageURL = window.location.substring(1);
     var sURLVariables = sPageURL.split('&');
     for (var i = 0; i < sURLVariables.length; i++)
     {
