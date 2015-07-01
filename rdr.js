@@ -30,7 +30,7 @@ function getUrlParameter(sParam)
 
 
 
-
+console.log(subid);
 // $(document).ready(function(){
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
