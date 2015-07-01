@@ -6,7 +6,6 @@ var path = document.referrer.split('?')[0] || '';
 
 url = document.referrer;
 ref = url.match(/:\/\/(.[^/]+)/)[1];
-alert(ref);
 
 var testid = getUrlParameter('testid');
 var subid = getUrlParameter('subid');
