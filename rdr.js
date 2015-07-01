@@ -3,12 +3,9 @@ var oldURL = document.referrer;
 console.log(oldURL);
 
 var path = document.referrer.split('?')[0] || '';
-alert(path);
 
 url = document.referrer;
 ref = url.match(/:\/\/(.[^/]+)/)[1];
-
-var domain = window.hostname;
 alert(ref);
 
 var testid = getUrlParameter('testid');
