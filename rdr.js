@@ -2,8 +2,11 @@ var qs = document.referrer.split('?')[1] || '';
 var oldURL = document.referrer;
 console.log(oldURL);
 
+url = document.referrer;
+ref = url.match(/:\/\/(.[^/]+)/)[1];
+
 var domain = window.hostname;
-alert(domain);
+alert(ref);
 
 var testid = getUrlParameter('testid');
 var subid = getUrlParameter('subid');
