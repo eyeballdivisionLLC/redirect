@@ -28,7 +28,7 @@ function getUrlParameter(sParam)
     }
 }
 
-
+$('.test').innerHTML = oldURL;
 
 
 // $(document).ready(function(){
