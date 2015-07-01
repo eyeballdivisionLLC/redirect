@@ -1,4 +1,4 @@
-
+var qs = document.referrer.split('?')[1] || '';
 var oldURL = document.referrer;
 console.log(oldURL);
 
@@ -17,7 +17,7 @@ var ebd_oid = getUrlParameter('ebd_oid');
 
 function getUrlParameter(sParam)
 {
-    var sPageURL = document.referrer.location.search.substring(1);
+    var sPageURL = qs.substring(1);
     var sURLVariables = sPageURL.split('&');
     for (var i = 0; i < sURLVariables.length; i++)
     {
