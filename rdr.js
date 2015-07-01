@@ -1,17 +1,17 @@
 
 var oldURL = document.referrer;
-// alert(oldURL);
+console.log(oldURL);
 
-var subid = $('#tid').val();
-var ebd_affid = $('#ebd_affid').val();
-var ebd_affsource = $('#ebd_affsource').val();
-var ebd_affsub = $('#ebd_affsub').val();
-var ebd_affsub2 = $('#ebd_affsub2').val();
-var ebd_affsub3 = $('#ebd_affsub3').val();
-var ebd_affsub4 = $('#ebd_affsub4').val();
-var ebd_affsub5 = $('#ebd_affsub5').val();
-var ebd_urlid = $('#ebd_urlid').val();
-var ebd_oid = $('#ebd_oid').val();
+var subid = getUrlParameter('subid');
+var ebd_affid = getUrlParameter('ebd_affid');
+var ebd_affsource = getUrlParameter('ebd_affsource');
+var ebd_affsub = getUrlParameter('ebd_affsub');
+var ebd_affsub2 = getUrlParameter('ebd_affsub2');
+var ebd_affsub3 = getUrlParameter('ebd_affsub3');
+var ebd_affsub4 = getUrlParameter('ebd_affsub4');
+var ebd_affsub5 = getUrlParameter('ebd_affsub5');
+var ebd_urlid = getUrlParameter('ebd_urlid');
+var ebd_oid = getUrlParameter('ebd_oid');
 
 
 function getUrlParameter(sParam)
@@ -28,7 +28,7 @@ function getUrlParameter(sParam)
     }
 }
 
-$('.test').innerHTML = oldURL;
+
 
 
 // $(document).ready(function(){
