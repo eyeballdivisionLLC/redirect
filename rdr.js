@@ -42,10 +42,10 @@ console.log(subid);
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 
-$(document).ready(function(){
-        window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&subid=' + subid + '&aff_id=' + ebd_affid + '&aff_sub=' + ebd_affsub + '&aff_sub2=' + ebd_affsub2 + '&aff_sub3=' + ebd_affsub3 + '&aff_sub4=' + ebd_affsub4 + '&aff_sub5=' + ebd_affsub5 + '&source=' + ebd_affsource + '&ebd_urlid=' + ebd_urlid + '&ebd_oid=' + ebd_oid);
+// $(document).ready(function(){
+        // window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&subid=' + subid + '&aff_id=' + ebd_affid + '&aff_sub=' + ebd_affsub + '&aff_sub2=' + ebd_affsub2 + '&aff_sub3=' + ebd_affsub3 + '&aff_sub4=' + ebd_affsub4 + '&aff_sub5=' + ebd_affsub5 + '&source=' + ebd_affsource + '&ebd_urlid=' + ebd_urlid + '&ebd_oid=' + ebd_oid);
 
-});
+// });
 
 
 
