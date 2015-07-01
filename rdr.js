@@ -2,12 +2,13 @@
 var oldURL = document.referrer;
 console.log(oldURL);
 
-var subid = getUrlParameter('subid');
+
 var ebd_affid = getUrlParameter('ebd_affid');
 var ebd_affsource = getUrlParameter('ebd_affsource');
 var ebd_affsub = getUrlParameter('ebd_affsub');
 var ebd_affsub2 = getUrlParameter('ebd_affsub2');
 var ebd_affsub3 = getUrlParameter('ebd_affsub3');
+var subid = getUrlParameter('subid');
 var ebd_affsub4 = getUrlParameter('ebd_affsub4');
 var ebd_affsub5 = getUrlParameter('ebd_affsub5');
 var ebd_urlid = getUrlParameter('ebd_urlid');
