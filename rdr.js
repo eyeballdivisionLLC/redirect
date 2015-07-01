@@ -2,6 +2,7 @@
 var oldURL = document.referrer;
 console.log(oldURL);
 
+var testid = getUrlParameter('testid');
 var subid = getUrlParameter('subid');
 var ebd_affid = getUrlParameter('ebd_affid');
 var ebd_affsource = getUrlParameter('ebd_affsource');
@@ -16,7 +17,7 @@ var ebd_oid = getUrlParameter('ebd_oid');
 
 function getUrlParameter(sParam)
 {
-    var sPageURL = oldURL.substring(1);
+    var sPageURL = document.referrer.location.search.substring(1);
     var sURLVariables = sPageURL.split('&');
     for (var i = 0; i < sURLVariables.length; i++)
     {
