@@ -36,8 +36,10 @@ console.log(subid);
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 
-
+$(document).ready(function(){
         window.location.replace("http://mesh.mylawfirmfinder.com/v3/?c=pinkGreen" + '&subid=' + subid + '&aff_id=' + ebd_affid + '&aff_sub=' + ebd_affsource + '&aff_sub2=' + ebd_affsub + '&aff_sub3=' + ebd_affsub2 + '&aff_sub4=' + ebd_affsub3 + '&aff_sub5=' + ebd_affsub4 + '&source=' + ebd_affsub5 + '&file_id=' + ebd_urlid + '&oid=' + ebd_oid);
+        
+});
 
 
 
