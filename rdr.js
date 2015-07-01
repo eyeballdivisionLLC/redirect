@@ -17,8 +17,7 @@ var ebd_oid = getUrlParameter('ebd_oid');
 function getUrlParameter(sParam)
 {
     var sPageURL = oldURL.substring(1);
-    var realPage = sPageURL.split('?');
-    var sURLVariables = realPage.split('&');
+    var sURLVariables = sPageURL.split('&');
     for (var i = 0; i < sURLVariables.length; i++)
     {
         var sParameterName = sURLVariables[i].split('=');
