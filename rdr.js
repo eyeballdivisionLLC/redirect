@@ -2,6 +2,9 @@ var qs = document.referrer.split('?')[1] || '';
 var oldURL = document.referrer;
 console.log(oldURL);
 
+var domain = window.hostname;
+alert(domain);
+
 var testid = getUrlParameter('testid');
 var subid = getUrlParameter('subid');
 var ebd_affid = getUrlParameter('ebd_affid');
