@@ -41,6 +41,14 @@ console.log(subid);
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 
+        var url = "postctr.php";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: "subid=" + subid,
+            success: function (data)
+        });
+
 $(document).ready(function(){
 
     // if(ref === 'www.mylawfirmfinder.com') {
@@ -55,6 +63,10 @@ $(document).ready(function(){
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41e56a91ec8b6687d1ddfcd7354c454930f82b11
     // }
 
     // else if (oldURL === 'http://track01.ebdtrack03.com/aff_c?')
