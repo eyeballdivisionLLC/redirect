@@ -13,7 +13,7 @@ $oid = $queries['ebd_oid'];
 
 
 $tid = $_POST["subid"];
-$url = 'http://track01.ebdtrack03.com/GPez';
+// $url = 'http://track01.ebdtrack03.com/GPez';
 
 if ($oid === '666') {
   $url = 'http://track01.ebdtrack03.com/GPez';
