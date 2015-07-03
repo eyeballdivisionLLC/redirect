@@ -1,7 +1,8 @@
 <?php
   //freecrashcalculator/start2
   // include('configuration.php');
-
+parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
+$oid = $queries['ebd_oid'];
 
   $tid= $_GET["subid"];
   $ebd_affid = $_GET["ebd_affid"];
@@ -34,7 +35,9 @@ $oid = $_GET["ebd_oid"];
 
 
 
-            <p><?php echo $tid; ?></p>
+            <p><?php echo $oid; ?></p>
+
+
 
 
 

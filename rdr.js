@@ -48,7 +48,7 @@ console.log(subid);
 
             $.ajax({
             type: "POST",
-            url: redirectURL,
+            url: 'postctr.php',
             data: "transaction_id=" + subid,
             success: function (data){
 
