@@ -4,6 +4,7 @@
 
 
 $oid = $_GET["ebd_oid"];
+echo "<script type='text/javascript'>alert('$oid')</script>";
 
 $tid = $_POST["subid"];
 
