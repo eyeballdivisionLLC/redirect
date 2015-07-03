@@ -16,7 +16,7 @@ $oid = $queries['ebd_oid'];
   $ebd_oid = $_GET["ebd_oid"];
 
 
-$oid = $_GET["ebd_oid"];
+
 
 
   
