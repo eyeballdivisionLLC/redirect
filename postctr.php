@@ -5,9 +5,11 @@
 
 <?php
 
-$test = $_SERVER['HTTP_REFERER'];
 
-$oid = $test[$_GET['ebd_oid']];
+
+parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
+
+$oid = $queries['ebd_oid'];
 
 
 $tid = $_POST["subid"];
