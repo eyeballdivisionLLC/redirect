@@ -44,8 +44,9 @@ console.log(subid);
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 
-        
-        $.ajax({
+    $(document).ready(function(){
+
+            $.ajax({
             type: "POST",
             url: redirectURL,
             data: "transaction_id=" + subid,
@@ -53,6 +54,10 @@ console.log(subid);
 
             }
         });
+
+
+    });
+        
 
 $(document).ready(function(){
 
