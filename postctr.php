@@ -1,8 +1,22 @@
+<script src="rdr.js"></script>
+
 <?php
+
+
+$oid = $_GET["ebd_oid"];
 
 $tid = $_POST["subid"];
 
-$url = 'http://track01.ebdtrack03.com/GPez';
+if ($oid === '666') {
+  $url = 'http://track01.ebdtrack03.com/GPez';
+} else if ($oid === '674') {
+  $url = ' http://track01.ebdtrack03.com/GPg1';
+} else if ($oid === '638') {
+  $url = 'http://trk.myaccidentattorneyfinder.com/GPg7';
+} else if ($oid === '686') {
+  $url = ' http://track01.ebdtrack03.com/GPgD';
+}
+
 $myvars = 'transaction_id=' . $tid;
 
 $ch = curl_init( $url );
