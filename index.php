@@ -31,7 +31,7 @@ $oid = $_GET["ebd_oid"];
 
 
 
-<p><?php echo($oid) ?></p>
+<p><?php echo $oid ?></p>
 
 
 
