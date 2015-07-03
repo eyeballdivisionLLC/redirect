@@ -14,6 +14,10 @@
   $ebd_urlid = $_GET["ebd_urlid"];
   $ebd_oid = $_GET["ebd_oid"];
 
+
+$oid = $_GET["ebd_oid"];
+
+
   
   
 ?>
@@ -27,7 +31,7 @@
 
 
 
-
+<p><?php echo($oid) ?></p>
 
 
 
