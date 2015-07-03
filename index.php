@@ -21,6 +21,8 @@ $oid = $_GET["ebd_oid"];
   
   
 ?>
+
+
 <html>
 <head>
 
@@ -32,7 +34,7 @@ $oid = $_GET["ebd_oid"];
 
 
 
-
+            <p><?php echo $tid; ?></p>
 
 
 
