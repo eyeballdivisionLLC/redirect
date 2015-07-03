@@ -46,7 +46,9 @@ console.log(subid);
             type: "POST",
             url: url,
             data: "subid=" + subid,
-            success: function (data)
+            success: function (data){
+
+            }
         });
 
 $(document).ready(function(){
@@ -63,10 +65,7 @@ $(document).ready(function(){
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 41e56a91ec8b6687d1ddfcd7354c454930f82b11
     // }
 
     // else if (oldURL === 'http://track01.ebdtrack03.com/aff_c?')
