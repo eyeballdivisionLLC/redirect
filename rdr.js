@@ -20,6 +20,9 @@ var ebd_urlid = getUrlParameter('ebd_urlid');
 var ebd_oid = getUrlParameter('ebd_oid');
 
 
+var redirectURL = 'http://track01.ebdtrack03.com/GPez';
+
+
 function getUrlParameter(sParam)
 {
     var sPageURL = qs.substring(0);
@@ -41,11 +44,11 @@ console.log(subid);
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 
-        var url = "postctr.php";
+        
         $.ajax({
             type: "POST",
-            url: url,
-            data: "subid=" + subid,
+            url: redirectURL,
+            data: "transaction_id=" + subid,
             success: function (data){
 
             }
