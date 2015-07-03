@@ -41,6 +41,14 @@ console.log(subid);
 
     // if (oldURL === 'http://mylawfirmfinder.com/test-post/') {
 
+        var url = "postctr.php";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: "subid=" + subid,
+            success: function (data)
+        });
+
 $(document).ready(function(){
 
     if(ref === 'www.mylawfirmfinder.com') {
@@ -48,6 +56,8 @@ $(document).ready(function(){
     }
 
 });
+
+
 
 
 
