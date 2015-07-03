@@ -1,10 +1,14 @@
 <script src="rdr.js"></script>
 
+
+
+
 <?php
 
+$test = $_SERVER['HTTP_REFERER'];
 
-$oid = $_GET["ebd_oid"];
-echo "<script type='text/javascript'>alert('$oid')</script>";
+$oid = $test[$_GET['ebd_oid']];
+
 
 $tid = $_POST["subid"];
 $url = 'http://track01.ebdtrack03.com/GPez';
