@@ -19,6 +19,8 @@ var ebd_affsub5 = getUrlParameter('ebd_affsub5');
 var ebd_urlid = getUrlParameter('ebd_urlid');
 var ebd_oid = getUrlParameter('ebd_oid');
 
+var oidTest = $('#oid').val();
+
 
 var redirectURL = 'http://track01.ebdtrack03.com/GPez';
 
@@ -49,7 +51,7 @@ console.log(subid);
             $.ajax({
             type: "POST",
             url: 'postctr.php',
-            data: "transaction_id=" + subid,
+            data: "transaction_id=" + subid + '&ebd_oid=' + ebd_oid,
             success: function (data){
 
             }

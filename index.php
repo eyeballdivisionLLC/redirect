@@ -14,13 +14,6 @@ $oid = $queries['ebd_oid'];
   $ebd_affsub5 = $_GET["ebd_affsub5"];
   $ebd_urlid = $_GET["ebd_urlid"];
   $ebd_oid = $_GET["ebd_oid"];
-
-
-
-
-
-  
-  
 ?>
 
 
@@ -35,7 +28,7 @@ $oid = $queries['ebd_oid'];
 
 
 
-            <p><?php echo $oid; ?></p>
+            <input type="hidden" id='oid' name="oid" value="<?php echo $oid; ?>">
 
 
 

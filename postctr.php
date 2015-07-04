@@ -7,13 +7,23 @@
 
 
 
-parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
+// parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
 
-$oid = $queries['ebd_oid'];
+// $oid = $queries['ebd_oid'];
 
 
 $tid = $_POST["subid"];
-$url = 'http://track01.ebdtrack03.com/GPez';
+$oid = $_POST["ebd_oid"];
+
+if ($oid === '666') {
+    $url = 'http://track01.ebdtrack03.com/GPez';
+} else if ($oid === '647') {
+    $url = 'http://track01.ebdtrack03.com/GPg1';
+} else if ($oid === '638') {
+    $url = 'http://trk.myaccidentattorneyfinder.com/GPg7';
+} else if ($oid === '686') {
+    $url = 'http://track01.ebdtrack03.com/GPgD';
+}
 
 
 $myvars = 'transaction_id=' . $tid;
