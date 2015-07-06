@@ -24,7 +24,7 @@ var postURL;
 var oidTest = $('#oid').val();
 
 if (ebd_oid === '666') {
-    postURL = 'http://track01.ebdtrack03.com/GPez';
+    postURL = 'http://track01.ebdtrack03.com/GPeh';
 } else if (ebd_oid === '674') {
     postURL = 'http://track01.ebdtrack03.com/GPdE';
 } else if (ebd_oid === '638') {
