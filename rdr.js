@@ -67,7 +67,7 @@ console.log(subid);
             url: 'postctr.php',
             data: "transaction_id=" + subid + '&url=' + postURL,
             success: function (data){
-
+                alert(data); // show response from the php script.
             }
         });
 
