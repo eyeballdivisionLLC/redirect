@@ -26,11 +26,11 @@ var oidTest = $('#oid').val();
 if (ebd_oid === '666') {
     postURL = 'http://track01.ebdtrack03.com/GPez';
 } else if (ebd_oid === '674') {
-    postURL = 'http://track01.ebdtrack03.com/GPg1';
+    postURL = 'http://track01.ebdtrack03.com/GPdE';
 } else if (ebd_oid === '638') {
-    postURL = 'http://trk.myaccidentattorneyfinder.com/GPg7';
+    postURL = 'http://trk.myaccidentattorneyfinder.com/GPaK';
 } else if (ebd_oid === '686') {
-    postURL = 'http://track01.ebdtrack03.com/GPgD';
+    postURL = 'http://track01.ebdtrack03.com/GPdY';
 }
 
 
