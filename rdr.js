@@ -21,13 +21,13 @@ var ebd_oid = getUrlParameter('ebd_oid');
 var postURL;
 
 if (ebd_oid === '666') {
-    postURL = 'http://track01.ebdtrack03.com/GPeh';
+    postURL = 'http://track01.ebdtrack03.com/GPez';
 } else if (ebd_oid === '674') {
-    postURL = 'http://track01.ebdtrack03.com/GPdE';
+    postURL = 'http://track01.ebdtrack03.com/GPg1';
 } else if (ebd_oid === '638') {
-    postURL = 'http://trk.myaccidentattorneyfinder.com/GPaK';
+    postURL = 'http://trk.myaccidentattorneyfinder.com/GPg7';
 } else if (ebd_oid === '686') {
-    postURL = 'http://track01.ebdtrack03.com/GPdY';
+    postURL = 'http://track01.ebdtrack03.com/GPgD';
 }
 
 function getUrlParameter(sParam)
