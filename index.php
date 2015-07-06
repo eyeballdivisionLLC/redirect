@@ -24,18 +24,6 @@ $oid = $queries['ebd_oid'];
 
 </head>
       <body>
-
-
-
-
-            <input type="hidden" id='oid' name="oid" value="<?php echo $oid; ?>">
-
-
-
-
-
-             
-
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
               <script src="rdr.js"></script>
       </body>
