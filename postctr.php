@@ -17,7 +17,7 @@ $tid = $_POST["subid"];
 
 $oid = $_GET["ebd_oid"];
 
-$url = $_GET['url'];
+$url = $_POST["url"]; 
 
 
 // if ($oid === '666') {
