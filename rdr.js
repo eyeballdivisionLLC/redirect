@@ -65,7 +65,7 @@ console.log(subid);
         $.ajax({
             type: "POST",
             url: 'postctr.php',
-            data: "transaction_id=" + subid + '&url=' + postURL,
+            data: "subid=" + subid + '&url=' + postURL,
             success: function (data){
                 alert(data); // show response from the php script.
             }
