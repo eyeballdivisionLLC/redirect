@@ -1,16 +1,4 @@
-<script src="rdr.js"></script>
-
-
-
-
 <?php
-
-
-parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
-$oid = $queries['ebd_oid'];
-// parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
-
-// $oid = $queries['ebd_oid'];
 
 if(isset($_POST['url']))
 {
