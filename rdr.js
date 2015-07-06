@@ -71,9 +71,9 @@ console.log(subid);
             }
         });
 
-        if (path === 'http://www.mylawfirmfinder.com/fda-xarelto-warning/') {
-         window.location.replace("http://trck.mylaw-firm-finder.info/Legal_Xarelto_DefaultColorSche/" + '?subid=' + subid + '&aff_id=' + ebd_affid + '&aff_sub=' + ebd_affsub + '&aff_sub2=' + ebd_affsub2 + '&aff_sub3=' + ebd_affsub3 + '&aff_sub4=' + ebd_affsub4 + '&aff_sub5=' + ebd_affsub5 + '&source=' + ebd_affsource + '&ebd_urlid=' + ebd_urlid + '&ebd_oid=' + ebd_oid);
-     }
+     //    if (path === 'http://www.mylawfirmfinder.com/fda-xarelto-warning/') {
+     //     window.location.replace("http://trck.mylaw-firm-finder.info/Legal_Xarelto_DefaultColorSche/" + '?subid=' + subid + '&aff_id=' + ebd_affid + '&aff_sub=' + ebd_affsub + '&aff_sub2=' + ebd_affsub2 + '&aff_sub3=' + ebd_affsub3 + '&aff_sub4=' + ebd_affsub4 + '&aff_sub5=' + ebd_affsub5 + '&source=' + ebd_affsource + '&ebd_urlid=' + ebd_urlid + '&ebd_oid=' + ebd_oid);
+     // }
 
    }
 
