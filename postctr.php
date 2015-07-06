@@ -6,14 +6,16 @@
 <?php
 
 
-
+parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
+$oid = $queries['ebd_oid'];
 // parse_str(parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY), $queries);
 
 // $oid = $queries['ebd_oid'];
 
 
 $tid = $_POST["subid"];
-$oid = $_POST["ebd_oid"];
+
+$oid = $_GET["ebd_oid"];
 
 if ($oid === '666') {
     $url = 'http://track01.ebdtrack03.com/GPez';
@@ -24,6 +26,8 @@ if ($oid === '666') {
 } else if ($oid === '686') {
     $url = 'http://track01.ebdtrack03.com/GPgD';
 }
+
+echo "<script type='text/javascript'>alert('{$oid}');</script>";
 
 
 $myvars = 'transaction_id=' . $tid;
