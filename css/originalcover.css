@@ -1,0 +1,347 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #0e0d0d;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+ 
+
+
+html,
+body {
+  height: 100%;
+  /* background-color: black;*/
+
+}
+
+body {
+/*background: url(../Images/P399_darkened.png);no-repeat center center fixed;*/ 
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+  color: #0e0d0d;
+  text-align: center;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  /*padding: 10px;*/
+}
+
+.center{
+	
+	margin: 0 auto;
+}
+
+/*
+ * Header
+ */
+ 
+#wrapper{
+	width:100%;
+	/*margin: 30 auto 0 auto;*/
+	
+}
+
+
+
+#launchheaderbottom{
+background-image: url('../images/blueheader.gif');
+	width:75%;
+	height:2px;
+	margin: 0px auto;
+}
+.masthead-brand {
+  /*-top: 10px;*/
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+ margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    margin: 0 auto;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+    margin-bottom: 0px;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+#footer-inside {
+bottom: -125px;
+height: 200px;
+
+left: 0;
+right:0;
+border-top: 2px solid #CCCCCC;
+color: #888888;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+margin: 0 auto;
+padding-top: 10px;
+width: 600px;
+}
+
+#launchheaderbottom{
+background-image: url('../images/blueheader.gif');
+	width:75%;
+	height:2px;
+	margin: 0px auto;
+}
+
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+.inputWidth{
+	width:50%;
+	/*outline:solid 1px #0e0d0d*/
+}
+.name{
+	
+	/*outline:solid 1px #0e0d0d*/
+}
+
+#footer-inside {
+bottom: -125px;
+height: 200px;
+
+left: 0;
+right:0;
+border-top: 2px solid #CCCCCC;
+color: #888888;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+margin: 0 auto;
+padding-top: 10px;
+width: 800px;
+}
+
+#wrapper{
+	width:800px;
+	margin: 0 auto 0 auto;
+	
+}
+
+
+#launchheaderbottom{
+background-image: url('../images/blueheader.gif');
+	width:800px;
+	height:2px;
+}
+
+
+#logo{
+	float:left;
+	
+}
+
+}
+
+.img_response{
+	margin: 0 auto;
+	
+}
+
+.block{
+	width: 100%;
+	
+}
+
+
+.button2{
+	padding: 15px;
+	margin: 10px;
+	font-size:medium;
+	
+}
+
+.button3{
+	padding: 25px;
+	margin: 10px;
+	font-size: x-large;
+	
+}
+
+.buttonGrey{
+	padding: 20px;
+	margin: 10px;
+	font-size: large;
+	color: grey;
+	
+}
+
+.buttonContinue{
+	padding: 20px;
+	margin: 10px;
+	font-size: large;
+	
+}
+
+.buttonContinueCopy{
+	padding: 20px;
+	margin: 10px;
+	font-size: large;
+	
+}
+
+.buttonContinue.submit{
+	padding: 20px;
+	width: 50%;
+	font-size: large;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; 
+    line-height: inherit;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.links{
+	margin: 10px;
+	
+}
+
+.white{
+  color: #fff;
+}
+.red{
+	color: red
+}
+.blue{
+	color: blue
+}
+.green{
+	color: green
+}
+.black{
+	color: black
+}

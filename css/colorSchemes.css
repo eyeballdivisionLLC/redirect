@@ -1,0 +1,242 @@
+/*pinkGrey*/
+
+.logoPink {
+    color: #E672A1;
+}
+
+.whiteText {
+  color: white;
+}
+
+.greyButton {
+  background-color: #515F68;
+  border-radius: 0;
+  border-color: #384349;
+}
+
+ /* .btn-primary1 {
+     background-image: -webkit-linear-gradient(top, #515F68 0%, #384349 100%);
+     background-image:      -o-linear-gradient(top, #515F68 0%, #384349 100%);
+       border-color: black;
+   }*/
+
+   .btn-primary1 {
+     background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+     background-image:      -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+       border-color: black;
+   }
+
+   .btn-primary1:hover,
+   .btn-primary1:focus {
+     background-color: white;
+     background-position: 0 -15px;
+   }
+   .btn-primary:active,
+   .btn-primary.active {
+     background-color: #265a88;
+     border-color: #245580;
+   }
+   .btn-primary:disabled,
+   .btn-primary[disabled] {
+     background-color: #265a88;
+     background-image: none;
+   }
+
+/*pinkGrey*/
+
+
+/*OrangeWhite*/
+
+.logoOrange {
+    color: #EF891D;
+}
+
+.btn-primary2 {
+     background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+     background-image:      -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+       border-color: black;
+   }
+
+   .btn-primary2:hover,
+   .btn-primary2:focus {
+     background-color: white;
+     background-position: 0 -15px;
+   }
+   .btn-primary:active,
+   .btn-primary.active {
+     background-color: #265a88;
+     border-color: #245580;
+   }
+   .btn-primary:disabled,
+   .btn-primary[disabled] {
+     background-color: #265a88;
+     background-image: none;
+   }
+
+
+
+/*OrangeWhite*/
+
+/*PurpleWhite*/
+
+.logoPurple {
+    color: #7374BD;
+}
+
+.btn-primary3 {
+     background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+     background-image:      -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+       border-color: black;
+   }
+
+   .btn-primary3:hover,
+   .btn-primary3:focus {
+     background-color: white;
+     background-position: 0 -15px;
+   }
+   .btn-primary:active,
+   .btn-primary.active {
+     background-color: #265a88;
+     border-color: #245580;
+   }
+   .btn-primary:disabled,
+   .btn-primary[disabled] {
+     background-color: #265a88;
+     background-image: none;
+   }
+
+
+/*PurpleWhite*/
+
+/*GreenWhite*/
+
+
+.logoGreen {
+    color: #21cd99;
+}
+
+.btn-primary4 {
+     background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+     background-image:      -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+       border-color: black;
+   }
+
+   .btn-primary4:hover,
+   .btn-primary4:focus {
+     background-color: white;
+     background-position: 0 -15px;
+   }
+   .btn-primary:active,
+   .btn-primary.active {
+     background-color: #265a88;
+     border-color: #245580;
+   }
+   .btn-primary:disabled,
+   .btn-primary[disabled] {
+     background-color: #265a88;
+     background-image: none;
+   }
+
+
+/*GreenWhite*/
+
+/*TealWhite*/
+     
+
+.logoTeal {
+    color: #008080;
+} 
+
+.btn-primary5:hover,
+   .btn-primary5:focus {
+     background-color: white;
+     background-position: 0 -15px;
+   }
+
+   .btn-primary5 {
+     background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+     background-image:      -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+       border-color: black;
+   }
+
+/*TealWhite*/
+
+/*PinkGreen*/
+
+
+.btn-primary6:hover,
+   .btn-primary6:focus {
+     background-color: white;
+     color: #E672A1;
+     background-position: 0 -15px;
+   }
+
+   .btn-Green {
+      background-color: #21cd99;
+   }
+
+
+   .btn-Green:hover, .btn-tester:focus {
+      background-color: #1AA37A;
+   }
+
+   .robinGreen {
+      background-color: #21cd99;
+      border-radius: 4px;
+   }
+
+/*PinkGreen*/
+
+.btn-primary7:hover,
+   .btn-primary7:focus {
+     color: #E672A1;
+     background-position: 0 -15px;
+   }
+
+   .btn-Green {
+      background-color: #21cd99;
+   }
+
+
+   .btn-Green:hover, .btn-tester:focus {
+      background-color: #1AA37A;
+   }
+
+   .robinGreen {
+      background-color: #21cd99;
+      border-radius: 4px;
+   }
+
+
+
+   /*fonts*/
+
+   .indieFlower {
+  font-family: 'Indie Flower', cursive;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.museo-sans {
+  font-family: 'museo-sans',arial,sans-serif;
+  font-weight: 100;
+}
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+
+/*fonts*/
+
+
+
+
+
+
+
+
+
+
