@@ -12,12 +12,17 @@ $oid = $queries['ebd_oid'];
 
 // $oid = $queries['ebd_oid'];
 
+if(isset($_POST['url']))
+{
+    $url = $_POST['url'];
+}
+
 
 $tid = $_POST["subid"];
 
 $oid = $_GET["ebd_oid"];
 
-$url = $_POST["url"]; 
+// $url = $_POST["url"]; 
 
 
 // if ($oid === '666') {
