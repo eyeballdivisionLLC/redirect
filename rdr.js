@@ -25,7 +25,7 @@ var oidTest = $('#oid').val();
 
 if (ebd_oid === '666') {
     postURL = 'http://track01.ebdtrack03.com/GPez';
-} else if (ebd_oid === '647') {
+} else if (ebd_oid === '674') {
     postURL = 'http://track01.ebdtrack03.com/GPg1';
 } else if (ebd_oid === '638') {
     postURL = 'http://trk.myaccidentattorneyfinder.com/GPg7';
