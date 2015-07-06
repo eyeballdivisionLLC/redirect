@@ -19,7 +19,20 @@ var ebd_affsub5 = getUrlParameter('ebd_affsub5');
 var ebd_urlid = getUrlParameter('ebd_urlid');
 var ebd_oid = getUrlParameter('ebd_oid');
 
+var postURL;
+
 var oidTest = $('#oid').val();
+
+if (ebd_oid === '666') {
+    postURL = 'http://track01.ebdtrack03.com/GPez';
+} else if (ebd_oid === '647') {
+    postURL = 'http://track01.ebdtrack03.com/GPg1';
+} else if (ebd_oid === '638') {
+    postURL = 'http://trk.myaccidentattorneyfinder.com/GPg7';
+} else if (ebd_oid === '686') {
+    postURL = 'http://track01.ebdtrack03.com/GPgD';
+}
+
 
 
 var redirectURL = 'http://track01.ebdtrack03.com/GPez';
@@ -51,7 +64,7 @@ console.log(subid);
             $.ajax({
             type: "POST",
             url: 'postctr.php',
-            data: "transaction_id=" + subid + '&ebd_oid=' + ebd_oid,
+            data: "transaction_id=" + subid + '&url=' + postURL,
             success: function (data){
 
             }
@@ -71,6 +84,7 @@ $(document).ready(function(){
     // }
 
 });
+
 
 
 
